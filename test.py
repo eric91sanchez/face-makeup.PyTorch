@@ -77,6 +77,7 @@ def evaluate(image_path='./imgs/116.jpg', cp='cp/79999_iter.pth'):
         # vis_parsing_maps(image, parsing, stride=1, save_im=False, save_path=osp.join(respth, dspth))
         return parsing
 
+
 if __name__ == "__main__":
     evaluate(dspth='/home/zll/data/CelebAMask-HQ/test-img/116.jpg', cp='79999_iter.pth')
 
